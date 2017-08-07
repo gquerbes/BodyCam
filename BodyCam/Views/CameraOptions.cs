@@ -1,10 +1,9 @@
 ﻿using System;
 namespace BodyCam.Views
 {
-    public class CameraOptions
+    public enum CameraOptions
     {
-        public CameraOptions()
-        {
-        }
+       Front,
+        Back
     }
 }

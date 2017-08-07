@@ -8,7 +8,7 @@ namespace BodyCam
         {
             InitializeComponent();
 
-            MainPage = new BodyCamPage();
+            MainPage = new NavigationPage(new BodyCamPage());
         }
 
         protected override void OnStart()

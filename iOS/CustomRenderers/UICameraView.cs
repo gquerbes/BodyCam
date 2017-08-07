@@ -8,7 +8,7 @@ using UIKit;
 
 namespace BodyCam.iOS.CustomRenderers
 {
-	public class UICameraPreview : UIView
+	public class UICameraView : UIView
 	{
 		AVCaptureVideoPreviewLayer previewLayer;
 		CameraOptions cameraOptions;
@@ -19,7 +19,7 @@ namespace BodyCam.iOS.CustomRenderers
 
 		public bool IsPreviewing { get; set; }
 
-		public UICameraPreview(CameraOptions options)
+		public UICameraView(CameraOptions options)
 		{
 			cameraOptions = options;
 			IsPreviewing = false;
